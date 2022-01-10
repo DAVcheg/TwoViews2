@@ -19,27 +19,23 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OdR-Pa-7zs">
                                 <rect key="frame" x="32" y="81" width="350" height="350"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="OdR-Pa-7zs" secondAttribute="height" multiplier="1:1" id="CHz-RB-8CN"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zad-Ao-h73">
                                 <rect key="frame" x="32" y="465" width="350" height="350"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="zad-Ao-h73" secondAttribute="height" multiplier="1:1" id="qBo-Qc-ead"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="OdR-Pa-7zs" firstAttribute="width" secondItem="zad-Ao-h73" secondAttribute="height" multiplier="1:1" id="2Yp-mg-un9"/>
-                            <constraint firstItem="zad-Ao-h73" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="7lg-0c-cN7"/>
+                            <constraint firstItem="OdR-Pa-7zs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="LEk-NV-4BU"/>
                             <constraint firstItem="OdR-Pa-7zs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Opf-Nx-Irr"/>
                             <constraint firstItem="zad-Ao-h73" firstAttribute="top" secondItem="OdR-Pa-7zs" secondAttribute="bottom" constant="34" id="Rg1-wp-YFh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zad-Ao-h73" secondAttribute="trailing" constant="32" id="az8-f3-WWB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zad-Ao-h73" secondAttribute="bottom" constant="47" id="fFv-Kw-h2H"/>
+                            <constraint firstItem="OdR-Pa-7zs" firstAttribute="height" secondItem="zad-Ao-h73" secondAttribute="height" id="feH-34-Qip"/>
                             <constraint firstItem="OdR-Pa-7zs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="37" id="nyC-DR-Tdq"/>
+                            <constraint firstItem="zad-Ao-h73" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="v2E-WR-x6K"/>
                         </constraints>
                     </view>
                 </viewController>
