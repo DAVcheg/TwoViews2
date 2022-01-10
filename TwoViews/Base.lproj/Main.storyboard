@@ -16,19 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OdR-Pa-7zs">
-                                <rect key="frame" x="32" y="78" width="350" height="350"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OdR-Pa-7zs">
+                                <rect key="frame" x="4" y="691" width="350" height="350"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OdR-Pa-7zs" secondAttribute="height" multiplier="1:1" id="Dsa-7a-mpA"/>
+                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zad-Ao-h73">
-                                <rect key="frame" x="32" y="461" width="350" height="350"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zad-Ao-h73">
+                                <rect key="frame" x="4" y="3967" width="350" height="350"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zad-Ao-h73" secondAttribute="height" multiplier="1:1" id="8x4-CW-ctr"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zad-Ao-h73" firstAttribute="top" secondItem="OdR-Pa-7zs" secondAttribute="bottom" constant="34" id="ATN-NI-kuP"/>
+                            <constraint firstItem="OdR-Pa-7zs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="37" id="CRJ-HC-Lbl"/>
+                            <constraint firstItem="OdR-Pa-7zs" firstAttribute="leading" secondItem="zad-Ao-h73" secondAttribute="leading" id="Z61-Xa-AMb"/>
+                            <constraint firstItem="OdR-Pa-7zs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="cSA-5x-HuQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zad-Ao-h73" secondAttribute="bottom" constant="47" id="t7H-Xe-yOS"/>
+                            <constraint firstItem="zad-Ao-h73" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wci-ca-0Wa"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
