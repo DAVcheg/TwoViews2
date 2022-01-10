@@ -17,25 +17,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OdR-Pa-7zs">
-                                <rect key="frame" x="-68" y="203" width="350" height="350"/>
+                                <rect key="frame" x="32" y="81" width="350" height="350"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OdR-Pa-7zs" secondAttribute="height" multiplier="1:1" id="CHz-RB-8CN"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zad-Ao-h73">
-                                <rect key="frame" x="-68" y="1165" width="350" height="350"/>
+                                <rect key="frame" x="32" y="465" width="350" height="350"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zad-Ao-h73" secondAttribute="height" multiplier="1:1" id="qBo-Qc-ead"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zad-Ao-h73" firstAttribute="trailing" secondItem="OdR-Pa-7zs" secondAttribute="trailing" id="4tg-l7-9y7"/>
-                            <constraint firstItem="zad-Ao-h73" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="Cm7-GI-V33"/>
-                            <constraint firstItem="zad-Ao-h73" firstAttribute="top" secondItem="OdR-Pa-7zs" secondAttribute="bottom" constant="34" id="Ywv-hT-IEi"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zad-Ao-h73" secondAttribute="bottom" constant="47" id="j4P-bC-HUQ"/>
-                            <constraint firstItem="zad-Ao-h73" firstAttribute="height" secondItem="OdR-Pa-7zs" secondAttribute="height" id="jxh-Ou-Hc8"/>
-                            <constraint firstItem="zad-Ao-h73" firstAttribute="leading" secondItem="OdR-Pa-7zs" secondAttribute="leading" id="lpY-6A-p6J"/>
-                            <constraint firstItem="zad-Ao-h73" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mjX-mE-wRz"/>
-                            <constraint firstItem="OdR-Pa-7zs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="37" id="uTo-ta-9lA"/>
+                            <constraint firstItem="OdR-Pa-7zs" firstAttribute="width" secondItem="zad-Ao-h73" secondAttribute="height" multiplier="1:1" id="2Yp-mg-un9"/>
+                            <constraint firstItem="zad-Ao-h73" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="7lg-0c-cN7"/>
+                            <constraint firstItem="OdR-Pa-7zs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Opf-Nx-Irr"/>
+                            <constraint firstItem="zad-Ao-h73" firstAttribute="top" secondItem="OdR-Pa-7zs" secondAttribute="bottom" constant="34" id="Rg1-wp-YFh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zad-Ao-h73" secondAttribute="bottom" constant="47" id="fFv-Kw-h2H"/>
+                            <constraint firstItem="OdR-Pa-7zs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="37" id="nyC-DR-Tdq"/>
                         </constraints>
                     </view>
                 </viewController>
